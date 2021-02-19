@@ -5,20 +5,13 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class DisableJoinMessages extends JavaPlugin {
 
-    // Modular Elements, is classes, structures similar to
-    // how you've done it now, but slightly different
-
     @Override
     public void onEnable() {
+        // Load Message
         System.out.println("Disable Join Message Loaded!");
+        // Event Grabber for actual join-message-disabling
         Bukkit.getPluginManager().registerEvents(new Events(), this);
+        // Command Executor
         getCommand("djm").setExecutor(new DJMCommand());
-
-        // TODO Move the command from here to another class - Done!
-        // TODO register the command - Done!
-        // TODO remove usage of label as we are making it plugin-specific - ... :/
     }
-
-    // brb, I'm just gonna get my phone from the charger
-
 }
