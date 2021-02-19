@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="disablejoinmsg:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/disablejoinmsg_jar</output-path>
+    <root id="archive" name="disablejoinmsg.jar">
+      <element id="module-output" name="disablejoinmsg" />
+    </root>
+  </artifact>
+</component>

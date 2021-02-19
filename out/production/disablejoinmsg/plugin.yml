@@ -1,0 +1,14 @@
+main: me.vyladence.disablejoinmsg.DisableJoinMessages
+name: DisableJoinMessage
+version: 1.0
+authors: [Vyladence, Callum]
+api-version: 1.16
+# Documentation: https://www.spigotmc.org/wiki/plugin-yml
+# Idk why this isn't working, normally when I do this, it makes everything look different, eh, you've got the documentation anyways
+# is it ready enough to throw it into my server?
+
+# You need to not have the Spigot api, follow the stuff I put into the pdf
+# i swear i didn't put the spigot api in there
+commands:
+  djm:
+    description: This displays version and Authors
